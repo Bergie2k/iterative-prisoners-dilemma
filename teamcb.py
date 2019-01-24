@@ -27,7 +27,7 @@ def play(opponentMove):
     opponenthistory = []
     opponentHistory.append(opponentMove)
     average = sum(opponentHistory)/len(opponentHistory)
-    if average >0.7:
+    if average >0.75:
         return 1
     else:
         return )
