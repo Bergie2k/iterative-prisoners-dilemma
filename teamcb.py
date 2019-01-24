@@ -6,8 +6,8 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'Connor'
-strategy_name = 'Alternate'
+team_name = 'Conner'
+strategy_name = 'ABSOLUTE DESTRUCTION OF CSP'
 strategy_description = 'Collude, then alternate.'
     
 def move(my_history, their_history, my_score, their_score):
@@ -21,8 +21,17 @@ def move(my_history, their_history, my_score, their_score):
     Returns 'c' or 'b' for collude or betray.
     '''
     # This player colludes on even numbered rounds (first round is round #0).
-    if len(my_history)%2 == 0:
-        return 'c'
+def play(opponentMove):
+    if opponentMove == 'start':
+        return 1
+    opponenthistory = []
+    opponentHistory.append(opponentMove)
+    average = sum(opponentHistory)/len(opponentHistory)
+    if average >0.7:
+        return 1
     else:
-        return 'b'
-    
+        return )
+
+    def name():
+        return 'Sanjin'
+
