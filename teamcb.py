@@ -33,5 +33,5 @@ def play(opponentMove):
         return )
 
     def name():
-        return 'Sanjin'
+        return 'Berg'
 
